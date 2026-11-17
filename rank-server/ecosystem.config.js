@@ -2,8 +2,8 @@
  * PM2 配置
  * ----------
  *   pm2 start ecosystem.config.js
- *   pm2 restart hitwo-rank
- *   pm2 logs hitwo-rank
+ *   pm2 restart drama-rank
+ *   pm2 logs drama-rank
  *   pm2 save && pm2 startup      # 开机自启
  *
  * 反代指向 127.0.0.1:6066 即可（只监听回环，不直接暴露公网）。
@@ -11,7 +11,7 @@
 module.exports = {
   apps: [
     {
-      name: 'hitwo-rank',
+      name: 'drama-rank',
       script: 'server.js',
       cwd: __dirname,
 

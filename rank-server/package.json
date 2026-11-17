@@ -1,8 +1,8 @@
 {
-  "name": "hitwo-rank",
+  "name": "drama-rank",
   "version": "1.0.0",
   "private": true,
-  "description": "HiTwo 短剧榜服务：定时抓取榜单/剧集/分集/小说，聚合后对外提供页面与 API。PM2 管理，零第三方依赖。",
+  "description": "短剧热播榜服务：定时抓取榜单/剧集/分集/小说，聚合后对外提供页面与 API。PM2 管理，零第三方依赖。",
   "main": "server.js",
   "engines": {
     "node": ">=16"
@@ -10,11 +10,11 @@
   "scripts": {
     "start": "node server.js",
     "pm2:start": "pm2 start ecosystem.config.js",
-    "pm2:restart": "pm2 restart hitwo-rank",
-    "pm2:reload": "pm2 reload hitwo-rank",
-    "pm2:stop": "pm2 stop hitwo-rank",
-    "pm2:logs": "pm2 logs hitwo-rank"
+    "pm2:restart": "pm2 restart drama-rank",
+    "pm2:reload": "pm2 reload drama-rank",
+    "pm2:stop": "pm2 stop drama-rank",
+    "pm2:logs": "pm2 logs drama-rank"
   },
-  "keywords": ["hitwo", "rank", "pm2"],
+  "keywords": ["drama", "rank", "pm2"],
   "license": "MIT"
 }

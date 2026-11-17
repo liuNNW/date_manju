@@ -1,4 +1,4 @@
-# HiTwo 短剧榜 · PM2 服务
+# 短剧热播榜 · PM2 服务
 
 节点服务，负责**定时抓数据 + 聚合 + 出页面**。反代你自己配，它只监听 `127.0.0.1:6066`。
 
@@ -36,7 +36,7 @@ pm2 start ecosystem.config.js
 
 # 3. 看状态
 pm2 status
-pm2 logs hitwo-rank --lines 50
+pm2 logs drama-rank --lines 50
 
 # 4. 开机自启
 pm2 save
@@ -153,7 +153,7 @@ curl -X POST -H "x-admin-token: your-token" "http://127.0.0.1:6066/api/refresh"
 
 ## 环境变量
 
-在 `ecosystem.config.js` 的 `env` 里改，或 `pm2 restart hitwo-rank --update-env` 前 export。
+在 `ecosystem.config.js` 的 `env` 里改，或 `pm2 restart drama-rank --update-env` 前 export。
 
 | 变量 | 默认 | 说明 |
 |---|---|---|
@@ -200,7 +200,7 @@ curl -X POST -H "x-admin-token: your-token" "http://127.0.0.1:6066/api/refresh"
 
 ```bash
 node make-frontend.js          # 在项目根目录跑
-pm2 restart hitwo-rank         # 静态文件，其实不用重启也能生效
+pm2 restart drama-rank         # 静态文件，其实不用重启也能生效
 ```
 
 ---
@@ -209,22 +209,22 @@ pm2 restart hitwo-rank         # 静态文件，其实不用重启也能生效
 
 ```bash
 pm2 status                    # 状态
-pm2 logs hitwo-rank           # 实时日志
-pm2 logs hitwo-rank --lines 200 --nostream
-pm2 restart hitwo-rank        # 重启
-pm2 reload hitwo-rank         # 平滑重载
-pm2 stop hitwo-rank
-pm2 delete hitwo-rank
+pm2 logs drama-rank           # 实时日志
+pm2 logs drama-rank --lines 200 --nostream
+pm2 restart drama-rank        # 重启
+pm2 reload drama-rank         # 平滑重载
+pm2 stop drama-rank
+pm2 delete drama-rank
 pm2 monit                     # 资源监控
-pm2 describe hitwo-rank       # 详细配置
+pm2 describe drama-rank       # 详细配置
 ```
 
 > **换端口 / 改环境变量后要 `delete` 再 `start`**：`pm2 restart` 默认不重读 `ecosystem.config.js` 里的 `env`（除非加 `--update-env`）。所以改端口应该是：
 >
 > ```bash
-> pm2 delete hitwo-rank && pm2 start ecosystem.config.js
+> pm2 delete drama-rank && pm2 start ecosystem.config.js
 > # 或者
-> pm2 restart hitwo-rank --update-env
+> pm2 restart drama-rank --update-env
 > ```
 
 ### 确认端口是否真的生效
@@ -232,5 +232,5 @@ pm2 describe hitwo-rank       # 详细配置
 ```bash
 ss -lntp | grep 6066          # 看有没有监听
 curl 127.0.0.1:6066/api/health
-pm2 describe hitwo-rank | grep -A2 "PORT"
+pm2 describe drama-rank | grep -A2 "PORT"
 ```

@@ -1,6 +1,6 @@
-# HiTwo 短剧榜
+# 短剧热播榜
 
-从 **HiTwo（com.starry.wang）** 短剧 App 逆向出来的榜单聚合服务。
+从 **com.starry.wang** 短剧 App 逆向出来的榜单聚合服务。
 
 抓 `api.starry.wang` 的公开接口，聚合成 5 个分类 + 3 个榜单 + 书城，输出一个响应式网页（手机/电脑通吃），支持服务端定时刷新。
 

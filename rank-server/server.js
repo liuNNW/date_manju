@@ -1,5 +1,5 @@
 /**
- * HiTwo 短剧榜 · 服务端（PM2 管理，零第三方依赖）
+ * 短剧热播榜 · 服务端（PM2 管理，零第三方依赖）
  * ================================================
  * 职责：
  *   1. 定时抓取 api.starry.wang 的榜单 / 剧集 / 分集 / 小说 / 礼物榜数据
@@ -497,6 +497,8 @@ function serveStatic(req, res, relPath) {
 }
 
 const server = http.createServer(async (req, res) => {
+  res.setHeader('X-Content-Type-Options', 'nosniff');
+  res.setHeader('Referrer-Policy', 'no-referrer-when-downgrade');
   const u = new URL(req.url, 'http://' + (req.headers.host || 'localhost'));
   const p = u.pathname;
 
