@@ -1,0 +1,20 @@
+{
+  "name": "hitwo-rank",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HiTwo 短剧榜服务：定时抓取榜单/剧集/分集/小说，聚合后对外提供页面与 API。PM2 管理，零第三方依赖。",
+  "main": "server.js",
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "pm2:start": "pm2 start ecosystem.config.js",
+    "pm2:restart": "pm2 restart hitwo-rank",
+    "pm2:reload": "pm2 reload hitwo-rank",
+    "pm2:stop": "pm2 stop hitwo-rank",
+    "pm2:logs": "pm2 logs hitwo-rank"
+  },
+  "keywords": ["hitwo", "rank", "pm2"],
+  "license": "MIT"
+}

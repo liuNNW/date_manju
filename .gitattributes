@@ -1,0 +1,14 @@
+# 统一换行，避免 Windows 提交后 Linux 上出现 CRLF 问题
+* text=auto eol=lf
+
+# Windows 批处理必须保留 CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 二进制
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.apk binary
+*.gz binary

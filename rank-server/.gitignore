@@ -1,0 +1,6 @@
+# 运行时产物，不需要进版本库
+data/
+logs/
+node_modules/
+npm-debug.log*
+.DS_Store

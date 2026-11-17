@@ -1,0 +1,34 @@
+# ===== 逆向分析原始产物（体积大，不入库）=====
+base.apk
+unpacked/
+libapp_strings.txt
+urls.txt
+
+# ===== 抓取到的原始数据 / 报表 =====
+episodes.json
+hot_dramas.json
+hot_dramas_detail.json
+data.json
+play_urls.json
+play_urls.csv
+token.json
+热播剧数据.xlsx
+热播剧总表.csv
+分集明细.csv
+
+# ===== 构建产物 =====
+短剧榜单.html
+rank-server.tar.gz
+
+# ===== 运行时缓存与日志 =====
+rank-server/data/
+rank-server/logs/
+node_modules/
+npm-debug.log*
+
+# ===== 编辑器 / 系统 =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

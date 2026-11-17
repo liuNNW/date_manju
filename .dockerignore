@@ -1,0 +1,19 @@
+# 这些是本地分析产物，不需要进镜像
+base.apk
+unpacked/
+libapp_strings.txt
+urls.txt
+*.xlsx
+*.csv
+hot_dramas*.json
+episodes.json
+token.json
+play_urls.*
+shots/
+*.bat
+selftest.js
+shoot.js
+test_server_mode.js
+test_toast.js
+逆向分析报告.md
+短剧榜单.html.bak
