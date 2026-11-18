@@ -53,7 +53,7 @@ def api(path, tok, timeout=25):
         return -1, {"err": str(e)}
 
 
-def http_get(url, timeout=40):
+def http_get(url, timeout=15):
     r = urllib.request.Request(url, headers={"User-Agent": UA})
     with urllib.request.urlopen(r, timeout=timeout) as x:
         return x.read()
@@ -80,6 +80,12 @@ def pick_quality(qualities, prefer="hd"):
 
 
 def download_episode(tok, episode_id, out_dir, name, prefer="hd", keep_ts=False):
+    out_dir_abs = out_dir
+    mp4_exist = os.path.join(out_dir_abs, name + ".mp4")
+    if os.path.exists(mp4_exist) and os.path.getsize(mp4_exist) > 100000:
+        print(f"  [跳过] 已存在 {name}.mp4")
+        return mp4_exist
+
     ok, url, reason, quals = play_info(tok, episode_id)
     if not ok:
         print(f"  [跳过] ep{episode_id} 不可播放：{reason}")
@@ -90,7 +96,7 @@ def download_episode(tok, episode_id, out_dir, name, prefer="hd", keep_ts=False)
 
     # 1) 拉 m3u8
     try:
-        m3u8 = http_get(qurl).decode("utf-8", "replace")
+        m3u8 = http_get(qurl, timeout=30).decode("utf-8", "replace")
     except Exception as e:
         print(f"  [失败] m3u8 拉取：{e}")
         return None
@@ -105,7 +111,7 @@ def download_episode(tok, episode_id, out_dir, name, prefer="hd", keep_ts=False)
             sub = subs[0]
             base = qurl.rsplit("/", 1)[0] + "/"
             qurl = sub if sub.startswith("http") else base + sub
-            m3u8 = http_get(qurl).decode("utf-8", "replace")
+            m3u8 = http_get(qurl, timeout=30).decode("utf-8", "replace")
 
     segs = [s for s in re.findall(r"^(?!#)(\S+)$", m3u8, re.M) if s.strip()]
     if not segs:
@@ -114,26 +120,43 @@ def download_episode(tok, episode_id, out_dir, name, prefer="hd", keep_ts=False)
 
     base = qurl.rsplit("/", 1)[0] + "/"
     full = [s if s.startswith("http") else base + s for s in segs]
-    print(f"  分片 {len(full)} 个，开始下载…")
+    print(f"  分片 {len(full)} 个，开始下载…", flush=True)
 
     os.makedirs(out_dir, exist_ok=True)
     ts_path = os.path.join(out_dir, name + ".ts")
     done = 0
+    fails = 0
+    MAX_FAIL = 6          # 单集累计失败上限，超过就放弃，避免整批卡死
     t0 = time.time()
     with open(ts_path, "wb") as f:
         for i, s in enumerate(full, 1):
-            for attempt in range(3):
+            got = False
+            for attempt in range(2):
                 try:
                     f.write(http_get(s))
-                    done += 1
+                    got = True
                     break
-                except Exception as e:
-                    if attempt == 2:
-                        print(f"  [警告] 分片 {i} 失败：{e}")
-                    time.sleep(0.6)
+                except Exception:
+                    time.sleep(0.4)
+            if not got:
+                fails += 1
+                if fails >= MAX_FAIL:
+                    print(f"  [放弃] 分片连续失败 {fails} 个，跳过本集 "
+                          f"({i}/{len(full)})", flush=True)
+                    break
+            else:
+                done += 1
             if i % 20 == 0 or i == len(full):
                 sp = os.path.getsize(ts_path) / 1048576
-                print(f"    {i}/{len(full)} 段 · {sp:.1f} MB · {time.time()-t0:.0f}s")
+                print(f"    {i}/{len(full)} 段 · {sp:.1f} MB · {time.time()-t0:.0f}s", flush=True)
+
+    if fails >= MAX_FAIL:
+        # 不完整，删掉残片，记为失败
+        try:
+            os.remove(ts_path)
+        except Exception:
+            pass
+        return None
 
     # 3) 合并成 mp4
     mp4 = os.path.join(out_dir, name + ".mp4")
@@ -202,17 +225,23 @@ def main():
     if not targets:
         sys.exit("没有匹配的集（用 --list 看哪些能下）")
 
-    print(f"\n待下载 {len(targets)} 集")
+    print(f"\n待下载 {len(targets)} 集", flush=True)
     okc = 0
+    failed = []
     for idx, e in enumerate(targets, 1):
         n = e.get("episodeNumber") or 0
-        print(f"\n[{idx}/{len(targets)}] 第{n}集 ep{e['id']}")
+        print(f"\n[{idx}/{len(targets)}] 第{n}集 ep{e['id']}", flush=True)
         res = download_episode(tok, e["id"], a.out,
                               f"{a.drama}_ep{n:03d}", a.quality, a.keep_ts)
         if res:
             okc += 1
-        time.sleep(0.5)
-    print(f"\n完成：{okc}/{len(targets)} 集 -> {os.path.abspath(a.out)}")
+        else:
+            failed.append(n)
+        time.sleep(0.3)
+    print(f"\n完成：{okc}/{len(targets)} 集 -> {os.path.abspath(a.out)}", flush=True)
+    if failed:
+        print(f"失败/跳过：{failed}", flush=True)
+        print(f"补跑命令：python grab.py --drama {a.drama} --all-free --out {a.out}", flush=True)
 
 
 if __name__ == "__main__":
