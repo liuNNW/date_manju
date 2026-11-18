@@ -1,0 +1,920 @@
+[
+  {
+    "status": 404,
+    "path": "/BeY",
+    "sec": 0.2,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/BeY\",\"timestamp\":\"2026-11-18T11:19:20.026Z\",\"path\":\"/api/BeY\"}"
+  },
+  {
+    "status": 404,
+    "path": "/IQy",
+    "sec": 0.2,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/IQy\",\"timestamp\":\"2026-11-18T11:19:20.024Z\",\"path\":\"/api/IQy\"}"
+  },
+  {
+    "status": 404,
+    "path": "/J}R",
+    "sec": 0.2,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/J}R\",\"timestamp\":\"2026-11-18T11:19:20.024Z\",\"path\":\"/api/J}R\"}"
+  },
+  {
+    "status": 404,
+    "path": "/L3u",
+    "sec": 0.2,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/L3u\",\"timestamp\":\"2026-11-18T11:19:20.025Z\",\"path\":\"/api/L3u\"}"
+  },
+  {
+    "status": 404,
+    "path": "/PjI",
+    "sec": 0.1,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/PjI\",\"timestamp\":\"2026-11-18T11:19:20.131Z\",\"path\":\"/api/PjI\"}"
+  },
+  {
+    "status": 404,
+    "path": "/about",
+    "sec": 0.13,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/about\",\"timestamp\":\"2026-11-18T11:19:20.147Z\",\"path\":\"/api/about\"}"
+  },
+  {
+    "status": 401,
+    "path": "/addresses",
+    "sec": 0.1,
+    "body": "{\"code\":401,\"data\":null,\"message\":\"缺少认证信息\",\"timestamp\":\"2026-11-18T11:19:20.132Z\",\"path\":\"/api/addresses\"}"
+  },
+  {
+    "status": 401,
+    "path": "/admin/creator-earnings/summary",
+    "sec": 0.13,
+    "body": "{\"code\":401,\"data\":null,\"message\":\"缺少认证信息\",\"timestamp\":\"2026-11-18T11:19:20.147Z\",\"path\":\"/api/admin/creator-earnings/summary\"}"
+  },
+  {
+    "status": 401,
+    "path": "/admin/creator-earnings/summary-by-drama",
+    "sec": 0.11,
+    "body": "{\"code\":401,\"data\":null,\"message\":\"缺少认证信息\",\"timestamp\":\"2026-11-18T11:19:20.235Z\",\"path\":\"/api/admin/creator-earnings/summary-by-drama\"}"
+  },
+  {
+    "status": 401,
+    "path": "/admin/creator-earnings/summary-by-novel",
+    "sec": 0.1,
+    "body": "{\"code\":401,\"data\":null,\"message\":\"缺少认证信息\",\"timestamp\":\"2026-11-18T11:19:20.236Z\",\"path\":\"/api/admin/creator-earnings/summary-by-novel\"}"
+  },
+  {
+    "status": 401,
+    "path": "/admin/withdrawals/balance",
+    "sec": 0.11,
+    "body": "{\"code\":401,\"data\":null,\"message\":\"缺少认证信息\",\"timestamp\":\"2026-11-18T11:19:20.273Z\",\"path\":\"/api/admin/withdrawals/balance\"}"
+  },
+  {
+    "status": 200,
+    "path": "/agreements/active",
+    "sec": 0.14,
+    "body": "{\"code\":0,\"data\":[{\"id\":2,\"type\":\"CREATOR_PUBLISH\",\"title\":\"嗨兔创作者入驻协议\",\"content\":\"嗨兔创作者入驻协议\\n适用：嗨兔（Hi Two）平台全部用户及创作者\\n本协议为平台与创作者就内容创作与运营合作订立的协议。创作者在注册或使用平台创作者服务时，即视为已接受本协议全部内容。\\n本文件由嗨兔平台运营方制定并发布。\\n\\n\\"
+  },
+  {
+    "status": 404,
+    "path": "/agreements/consent",
+    "sec": 0.11,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/agreements/consent\",\"timestamp\":\"2026-11-18T11:19:20.343Z\",\"path\":\"/api/agreements/consent\"}"
+  },
+  {
+    "status": 404,
+    "path": "/analytics/sessions/report",
+    "sec": 0.11,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/analytics/sessions/report\",\"timestamp\":\"2026-11-18T11:19:20.343Z\",\"path\":\"/api/analytics/sessions/report\"}"
+  },
+  {
+    "status": 404,
+    "path": "/api",
+    "sec": 0.1,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/api\",\"timestamp\":\"2026-11-18T11:19:20.379Z\",\"path\":\"/api/api\"}"
+  },
+  {
+    "status": 200,
+    "path": "/app/bootstrap",
+    "sec": 0.12,
+    "body": "{\"code\":0,\"data\":{\"banners\":[{\"id\":123,\"title\":\"扶光（惊，妖族少主他囚爱了正道首席）\",\"imageUrl\":\"https://vod.starry.wang/covers/1792933002348-4goastswkzn.opt.png\",\"tag\":\"独家\",\"linkType\":\"INTERNAL\",\"linkValue\":\"/drama/4"
+  },
+  {
+    "status": 200,
+    "path": "/app/config",
+    "sec": 0.12,
+    "body": "{\"code\":0,\"data\":{\"displayName\":\"HiTwo\",\"logoUrl\":\"https://vod.starry.wang/covers/1791454696135-sv5446phufe.opt.png\",\"splashImageUrl\":\"https://vod.starry.wang/covers/1791454700890-65bke51voj.opt.jpg\","
+  },
+  {
+    "status": 404,
+    "path": "/app/diagnostics",
+    "sec": 0.1,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/app/diagnostics\",\"timestamp\":\"2026-11-18T11:19:20.446Z\",\"path\":\"/api/app/diagnostics\"}"
+  },
+  {
+    "status": 404,
+    "path": "/app_updates",
+    "sec": 0.1,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/app_updates\",\"timestamp\":\"2026-11-18T11:19:20.480Z\",\"path\":\"/api/app_updates\"}"
+  },
+  {
+    "status": 404,
+    "path": "/auth/account-deletion",
+    "sec": 0.13,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/auth/account-deletion\",\"timestamp\":\"2026-11-18T11:19:20.550Z\",\"path\":\"/api/auth/account-deletion\"}"
+  },
+  {
+    "status": 404,
+    "path": "/auth/email/code",
+    "sec": 0.12,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/auth/email/code\",\"timestamp\":\"2026-11-18T11:19:20.566Z\",\"path\":\"/api/auth/email/code\"}"
+  },
+  {
+    "status": 404,
+    "path": "/auth/email/register",
+    "sec": 0.13,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/auth/email/register\",\"timestamp\":\"2026-11-18T11:19:20.597Z\",\"path\":\"/api/auth/email/register\"}"
+  },
+  {
+    "status": 404,
+    "path": "/auth/login",
+    "sec": 0.11,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/auth/login\",\"timestamp\":\"2026-11-18T11:19:20.595Z\",\"path\":\"/api/auth/login\"}"
+  },
+  {
+    "status": 404,
+    "path": "/auth/logout",
+    "sec": 0.11,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/auth/logout\",\"timestamp\":\"2026-11-18T11:19:20.660Z\",\"path\":\"/api/auth/logout\"}"
+  },
+  {
+    "status": 429,
+    "path": "/auth/password/set",
+    "sec": 0.13,
+    "body": "<html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>nginx/1.31.8</center>\r\n</body>\r\n"
+  },
+  {
+    "status": 404,
+    "path": "/auth/refresh",
+    "sec": 0.11,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/auth/refresh\",\"timestamp\":\"2026-11-18T11:19:20.702Z\",\"path\":\"/api/auth/refresh\"}"
+  },
+  {
+    "status": 429,
+    "path": "/auth/register",
+    "sec": 0.12,
+    "body": "<html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>nginx/1.31.8</center>\r\n</body>\r\n"
+  },
+  {
+    "status": 429,
+    "path": "/auth/sms-code",
+    "sec": 0.12,
+    "body": "<html>\r\n<head><title>429 Too Many Requests</title></head>\r\n<body>\r\n<center><h1>429 Too Many Requests</h1></center>\r\n<hr><center>nginx/1.31.8</center>\r\n</body>\r\n"
+  },
+  {
+    "status": 404,
+    "path": "/bBn",
+    "sec": 0.12,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/bBn\",\"timestamp\":\"2026-11-18T11:19:20.827Z\",\"path\":\"/api/bBn\"}"
+  },
+  {
+    "status": 200,
+    "path": "/banners",
+    "sec": 0.13,
+    "body": "{\"code\":0,\"data\":[{\"id\":123,\"title\":\"扶光（惊，妖族少主他囚爱了正道首席）\",\"imageUrl\":\"https://vod.starry.wang/covers/1792933002348-4goastswkzn.opt.png\",\"tag\":\"独家\",\"linkType\":\"INTERNAL\",\"linkValue\":\"/drama/434\",\"positi"
+  },
+  {
+    "status": 404,
+    "path": "/bind-email",
+    "sec": 0.12,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/bind-email\",\"timestamp\":\"2026-11-18T11:19:20.842Z\",\"path\":\"/api/bind-email\"}"
+  },
+  {
+    "status": 404,
+    "path": "/bind-phone",
+    "sec": 0.13,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/bind-phone\",\"timestamp\":\"2026-11-18T11:19:20.907Z\",\"path\":\"/api/bind-phone\"}"
+  },
+  {
+    "status": 404,
+    "path": "/cancel",
+    "sec": 0.13,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/cancel\",\"timestamp\":\"2026-11-18T11:19:20.955Z\",\"path\":\"/api/cancel\"}"
+  },
+  {
+    "status": 401,
+    "path": "/cart",
+    "sec": 0.13,
+    "body": "{\"code\":401,\"data\":null,\"message\":\"缺少认证信息\",\"timestamp\":\"2026-11-18T11:19:20.954Z\",\"path\":\"/api/cart\"}"
+  },
+  {
+    "status": 404,
+    "path": "/cart/select",
+    "sec": 0.11,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/cart/select\",\"timestamp\":\"2026-11-18T11:19:20.950Z\",\"path\":\"/api/cart/select\"}"
+  },
+  {
+    "status": 200,
+    "path": "/categories",
+    "sec": 0.12,
+    "body": "{\"code\":0,\"data\":[{\"id\":22,\"name\":\"时代\",\"parentId\":null,\"sortOrder\":1,\"children\":[{\"id\":23,\"name\":\"现代\",\"parentId\":22,\"sortOrder\":1},{\"id\":24,\"name\":\"古代\",\"parentId\":22,\"sortOrder\":2},{\"id\":25,\"name\":\"民国"
+  },
+  {
+    "status": 404,
+    "path": "/chapters",
+    "sec": 0.1,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/chapters\",\"timestamp\":\"2026-11-18T11:19:21.056Z\",\"path\":\"/api/chapters\"}"
+  },
+  {
+    "status": 404,
+    "path": "/checkout",
+    "sec": 0.11,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/checkout\",\"timestamp\":\"2026-11-18T11:19:21.062Z\",\"path\":\"/api/checkout\"}"
+  },
+  {
+    "status": 404,
+    "path": "/claim",
+    "sec": 0.12,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/claim\",\"timestamp\":\"2026-11-18T11:19:21.075Z\",\"path\":\"/api/claim\"}"
+  },
+  {
+    "status": 404,
+    "path": "/coin-transactions",
+    "sec": 0.1,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/coin-transactions\",\"timestamp\":\"2026-11-18T11:19:21.132Z\",\"path\":\"/api/coin-transactions\"}"
+  },
+  {
+    "status": 200,
+    "path": "/comments",
+    "sec": 0.76,
+    "body": "{\"code\":0,\"data\":{\"list\":[{\"id\":63730,\"user\":{\"id\":17182,\"nickname\":\"春井樱洛\",\"avatarUrl\":null,\"defaultAvatarKey\":\"玉米\",\"role\":\"CREATOR\"},\"content\":\"宝宝们 这个最开始设置错了 为了考虑其他宝宝的购买公平 需要同步其他地方的价格 我需要设置买断 可以在集数的基"
+  },
+  {
+    "status": 404,
+    "path": "/confirm",
+    "sec": 0.12,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/confirm\",\"timestamp\":\"2026-11-18T11:19:21.183Z\",\"path\":\"/api/confirm\"}"
+  },
+  {
+    "status": 404,
+    "path": "/content",
+    "sec": 0.13,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/content\",\"timestamp\":\"2026-11-18T11:19:21.200Z\",\"path\":\"/api/content\"}"
+  },
+  {
+    "status": 404,
+    "path": "/creator-applications",
+    "sec": 0.12,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/creator-applications\",\"timestamp\":\"2026-11-18T11:19:21.248Z\",\"path\":\"/api/creator-applications\"}"
+  },
+  {
+    "status": 401,
+    "path": "/creator-applications/form",
+    "sec": 0.1,
+    "body": "{\"code\":401,\"data\":null,\"message\":\"缺少认证信息\",\"timestamp\":\"2026-11-18T11:19:21.285Z\",\"path\":\"/api/creator-applications/form\"}"
+  },
+  {
+    "status": 401,
+    "path": "/creator-applications/mine",
+    "sec": 0.14,
+    "body": "{\"code\":401,\"data\":null,\"message\":\"缺少认证信息\",\"timestamp\":\"2026-11-18T11:19:21.325Z\",\"path\":\"/api/creator-applications/mine\"}"
+  },
+  {
+    "status": 404,
+    "path": "/creator-center",
+    "sec": 0.13,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/creator-center\",\"timestamp\":\"2026-11-18T11:19:21.373Z\",\"path\":\"/api/creator-center\"}"
+  },
+  {
+    "status": 404,
+    "path": "/creator-data",
+    "sec": 0.12,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/creator-data\",\"timestamp\":\"2026-11-18T11:19:21.406Z\",\"path\":\"/api/creator-data\"}"
+  },
+  {
+    "status": 404,
+    "path": "/creator-post/create",
+    "sec": 0.13,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/creator-post/create\",\"timestamp\":\"2026-11-18T11:19:21.464Z\",\"path\":\"/api/creator-post/create\"}"
+  },
+  {
+    "status": 404,
+    "path": "/creator-posts",
+    "sec": 0.12,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/creator-posts\",\"timestamp\":\"2026-11-18T11:19:21.495Z\",\"path\":\"/api/creator-posts\"}"
+  },
+  {
+    "status": 401,
+    "path": "/creator-posts/my",
+    "sec": 0.12,
+    "body": "{\"code\":401,\"data\":null,\"message\":\"缺少认证信息\",\"timestamp\":\"2026-11-18T11:19:21.528Z\",\"path\":\"/api/creator-posts/my\"}"
+  },
+  {
+    "status": 401,
+    "path": "/creators/my-follows",
+    "sec": 0.12,
+    "body": "{\"code\":401,\"data\":null,\"message\":\"缺少认证信息\",\"timestamp\":\"2026-11-18T11:19:21.587Z\",\"path\":\"/api/creators/my-follows\"}"
+  },
+  {
+    "status": 401,
+    "path": "/creators/my-profile",
+    "sec": 0.12,
+    "body": "{\"code\":401,\"data\":null,\"message\":\"缺少认证信息\",\"timestamp\":\"2026-11-18T11:19:21.619Z\",\"path\":\"/api/creators/my-profile\"}"
+  },
+  {
+    "status": 400,
+    "path": "/danmaku",
+    "sec": 0.15,
+    "body": "{\"code\":400,\"data\":null,\"message\":\"Validation failed (numeric string is expected)\",\"timestamp\":\"2026-11-18T11:19:21.658Z\",\"path\":\"/api/danmaku\"}"
+  },
+  {
+    "status": 401,
+    "path": "/danmaku/liked",
+    "sec": 0.13,
+    "body": "{\"code\":401,\"data\":null,\"message\":\"缺少认证信息\",\"timestamp\":\"2026-11-18T11:19:21.712Z\",\"path\":\"/api/danmaku/liked\"}"
+  },
+  {
+    "status": 400,
+    "path": "/danmaku/segment",
+    "sec": 0.11,
+    "body": "{\"code\":400,\"data\":null,\"message\":\"Validation failed (numeric string is expected)\",\"timestamp\":\"2026-11-18T11:19:21.728Z\",\"path\":\"/api/danmaku/segment\"}"
+  },
+  {
+    "status": 400,
+    "path": "/danmaku/updates",
+    "sec": 0.1,
+    "body": "{\"code\":400,\"data\":null,\"message\":\"Validation failed (numeric string is expected)\",\"timestamp\":\"2026-11-18T11:19:21.781Z\",\"path\":\"/api/danmaku/updates\"}"
+  },
+  {
+    "status": 404,
+    "path": "/default",
+    "sec": 0.12,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/default\",\"timestamp\":\"2026-11-18T11:19:21.836Z\",\"path\":\"/api/default\"}"
+  },
+  {
+    "status": 200,
+    "path": "/dramas",
+    "sec": 0.15,
+    "body": "{\"code\":0,\"data\":{\"list\":[{\"id\":979,\"title\":\"昭昭我心\",\"coverUrl\":\"https://vod.starry.wang/covers/1794997195554-8iuiif3fgqc.opt.jpg\",\"description\":null,\"tags\":[\"双洁\",\"古代\",\"年上\",\"甜宠\",\"强攻弱受\"],\"category\":\"双洁\","
+  },
+  {
+    "status": 200,
+    "path": "/dramas/hot",
+    "sec": 0.14,
+    "body": "{\"code\":0,\"data\":{\"list\":[{\"id\":260,\"title\":\"《顶级沦陷第二季》\",\"coverUrl\":\"https://vod.starry.wang/covers/1791815793170-myvnpiirnd.opt.jpg\",\"description\":\"裴朝:“我一个总裁却偷偷在外做0！”\\n秦酌:“我堂堂秦家掌权人，在外面偷偷给裴朝当狗！都这样了，居然还"
+  },
+  {
+    "status": 200,
+    "path": "/dramas/latest",
+    "sec": 0.16,
+    "body": "{\"code\":0,\"data\":{\"list\":[{\"id\":568,\"title\":\"恰逢对手\",\"coverUrl\":\"https://vod.starry.wang/covers/1793808330046-58w35hvljeb.opt.png\",\"description\":null,\"tags\":[\"国内\",\"现代\",\"双洁\"],\"category\":\"国内\",\"status\":\"ON"
+  },
+  {
+    "status": 200,
+    "path": "/dramas/rankings/gift-creators",
+    "sec": 0.15,
+    "body": "{\"code\":0,\"data\":{\"list\":[{\"id\":230,\"creatorName\":\"剩女果\",\"avatarUrl\":\"https://vod.starry.wang/covers/1792675180432-dfls4y9q9cj.opt.jpg\",\"followerCount\":1292,\"workCount\":1,\"dramaTitles\":[\"悠悠师尊\"],\"tipEna"
+  },
+  {
+    "status": 200,
+    "path": "/dramas/tags",
+    "sec": 0.13,
+    "body": "{\"code\":0,\"data\":[\"架空\",\"双洁\",\"穿书\",\"仙侠\",\"强强\",\"国内\",\"现代\",\"师生\",\"年下\",\"ABO\",\"生子\",\"追妻火葬场\",\"虐恋情深\",\"先婚后爱\",\"暗恋\",\"古代\",\"甜宠\",\"竹马\",\"重生\",\"直掰弯\",\"救赎\",\"年上\",\"强取豪夺\",\"养成\",\"系统\",\"穿越\",\"双性\",\"强攻弱受\",\"快穿\",\"民国\",\"伪骨科\",\"娱乐圈\",\"种田\",\"青"
+  },
+  {
+    "status": 404,
+    "path": "/dsH",
+    "sec": 0.1,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/dsH\",\"timestamp\":\"2026-11-18T11:19:22.020Z\",\"path\":\"/api/dsH\"}"
+  },
+  {
+    "status": 404,
+    "path": "/favorite",
+    "sec": 0.1,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/favorite\",\"timestamp\":\"2026-11-18T11:19:22.080Z\",\"path\":\"/api/favorite\"}"
+  },
+  {
+    "status": 401,
+    "path": "/favorites",
+    "sec": 0.11,
+    "body": "{\"code\":401,\"data\":null,\"message\":\"缺少认证信息\",\"timestamp\":\"2026-11-18T11:19:22.098Z\",\"path\":\"/api/favorites\"}"
+  },
+  {
+    "status": 404,
+    "path": "/follow",
+    "sec": 0.1,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/follow\",\"timestamp\":\"2026-11-18T11:19:22.113Z\",\"path\":\"/api/follow\"}"
+  },
+  {
+    "status": 404,
+    "path": "/follow-status",
+    "sec": 0.1,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/follow-status\",\"timestamp\":\"2026-11-18T11:19:22.122Z\",\"path\":\"/api/follow-status\"}"
+  },
+  {
+    "status": 200,
+    "path": "/gifts",
+    "sec": 0.11,
+    "body": "{\"code\":0,\"data\":{\"gifts\":[{\"id\":1,\"name\":\"兔兔比心\",\"iconUrl\":\"https://vod.starry.wang/covers/1792658077329-pb7p2ykc4t.gif\",\"priceBeans\":10,\"sortOrder\":0},{\"id\":4,\"name\":\"幸运萝卜\",\"iconUrl\":\"https://vod.sta"
+  },
+  {
+    "status": 404,
+    "path": "/health",
+    "sec": 0.11,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/health\",\"timestamp\":\"2026-11-18T11:19:22.204Z\",\"path\":\"/api/health\"}"
+  },
+  {
+    "status": 404,
+    "path": "/iFZ",
+    "sec": 0.11,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/iFZ\",\"timestamp\":\"2026-11-18T11:19:22.219Z\",\"path\":\"/api/iFZ\"}"
+  },
+  {
+    "status": 404,
+    "path": "/iYE",
+    "sec": 0.12,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/iYE\",\"timestamp\":\"2026-11-18T11:19:22.240Z\",\"path\":\"/api/iYE\"}"
+  },
+  {
+    "status": 404,
+    "path": "/invite",
+    "sec": 0.11,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/invite\",\"timestamp\":\"2026-11-18T11:19:22.299Z\",\"path\":\"/api/invite\"}"
+  },
+  {
+    "status": 404,
+    "path": "/invite/bind-invite",
+    "sec": 0.1,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/invite/bind-invite\",\"timestamp\":\"2026-11-18T11:19:22.307Z\",\"path\":\"/api/invite/bind-invite\"}"
+  },
+  {
+    "status": 401,
+    "path": "/invite/invitations",
+    "sec": 0.12,
+    "body": "{\"code\":401,\"data\":null,\"message\":\"缺少认证信息\",\"timestamp\":\"2026-11-18T11:19:22.332Z\",\"path\":\"/api/invite/invitations\"}"
+  },
+  {
+    "status": 401,
+    "path": "/invite/overview",
+    "sec": 0.1,
+    "body": "{\"code\":401,\"data\":null,\"message\":\"缺少认证信息\",\"timestamp\":\"2026-11-18T11:19:22.342Z\",\"path\":\"/api/invite/overview\"}"
+  },
+  {
+    "status": 401,
+    "path": "/invite/status",
+    "sec": 0.11,
+    "body": "{\"code\":401,\"data\":null,\"message\":\"缺少认证信息\",\"timestamp\":\"2026-11-18T11:19:22.409Z\",\"path\":\"/api/invite/status\"}"
+  },
+  {
+    "status": 404,
+    "path": "/jzJ",
+    "sec": 0.1,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/jzJ\",\"timestamp\":\"2026-11-18T11:19:22.409Z\",\"path\":\"/api/jzJ\"}"
+  },
+  {
+    "status": 404,
+    "path": "/l4d",
+    "sec": 0.11,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/l4d\",\"timestamp\":\"2026-11-18T11:19:22.442Z\",\"path\":\"/api/l4d\"}"
+  },
+  {
+    "status": 404,
+    "path": "/like",
+    "sec": 0.11,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/like\",\"timestamp\":\"2026-11-18T11:19:22.453Z\",\"path\":\"/api/like\"}"
+  },
+  {
+    "status": 404,
+    "path": "/login",
+    "sec": 0.11,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/login\",\"timestamp\":\"2026-11-18T11:19:22.513Z\",\"path\":\"/api/login\"}"
+  },
+  {
+    "status": 404,
+    "path": "/logistics",
+    "sec": 0.1,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/logistics\",\"timestamp\":\"2026-11-18T11:19:22.515Z\",\"path\":\"/api/logistics\"}"
+  },
+  {
+    "status": 404,
+    "path": "/lottery/draw",
+    "sec": 0.12,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/lottery/draw\",\"timestamp\":\"2026-11-18T11:19:22.566Z\",\"path\":\"/api/lottery/draw\"}"
+  },
+  {
+    "status": 401,
+    "path": "/lottery/pending",
+    "sec": 0.11,
+    "body": "{\"code\":401,\"data\":null,\"message\":\"缺少认证信息\",\"timestamp\":\"2026-11-18T11:19:22.558Z\",\"path\":\"/api/lottery/pending\"}"
+  },
+  {
+    "status": 404,
+    "path": "/mall",
+    "sec": 0.13,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/mall\",\"timestamp\":\"2026-11-18T11:19:22.639Z\",\"path\":\"/api/mall\"}"
+  },
+  {
+    "status": 200,
+    "path": "/mall/categories",
+    "sec": 0.11,
+    "body": "{\"code\":0,\"data\":[],\"message\":\"success\",\"timestamp\":\"2026-11-18T11:19:22.621Z\"}"
+  },
+  {
+    "status": 401,
+    "path": "/mall/orders",
+    "sec": 0.11,
+    "body": "{\"code\":401,\"data\":null,\"message\":\"缺少认证信息\",\"timestamp\":\"2026-11-18T11:19:22.666Z\",\"path\":\"/api/mall/orders\"}"
+  },
+  {
+    "status": 200,
+    "path": "/mall/products",
+    "sec": 0.13,
+    "body": "{\"code\":0,\"data\":{\"list\":[],\"total\":0,\"page\":1,\"pageSize\":20,\"totalPages\":0},\"message\":\"success\",\"timestamp\":\"2026-11-18T11:19:22.690Z\"}"
+  },
+  {
+    "status": 401,
+    "path": "/mall/refunds",
+    "sec": 0.14,
+    "body": "{\"code\":401,\"data\":null,\"message\":\"缺少认证信息\",\"timestamp\":\"2026-11-18T11:19:22.756Z\",\"path\":\"/api/mall/refunds\"}"
+  },
+  {
+    "status": 401,
+    "path": "/mall/refunds/apply",
+    "sec": 0.13,
+    "body": "{\"code\":401,\"data\":null,\"message\":\"缺少认证信息\",\"timestamp\":\"2026-11-18T11:19:22.766Z\",\"path\":\"/api/mall/refunds/apply\"}"
+  },
+  {
+    "status": 401,
+    "path": "/mall/refunds/list",
+    "sec": 0.13,
+    "body": "{\"code\":401,\"data\":null,\"message\":\"缺少认证信息\",\"timestamp\":\"2026-11-18T11:19:22.796Z\",\"path\":\"/api/mall/refunds/list\"}"
+  },
+  {
+    "status": 404,
+    "path": "/messages",
+    "sec": 0.1,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/messages\",\"timestamp\":\"2026-11-18T11:19:22.794Z\",\"path\":\"/api/messages\"}"
+  },
+  {
+    "status": 404,
+    "path": "/my-dramas",
+    "sec": 0.11,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/my-dramas\",\"timestamp\":\"2026-11-18T11:19:22.863Z\",\"path\":\"/api/my-dramas\"}"
+  },
+  {
+    "status": 401,
+    "path": "/notifications",
+    "sec": 0.1,
+    "body": "{\"code\":401,\"data\":null,\"message\":\"缺少认证信息\",\"timestamp\":\"2026-11-18T11:19:22.868Z\",\"path\":\"/api/notifications\"}"
+  },
+  {
+    "status": 404,
+    "path": "/notifications/read-all",
+    "sec": 0.13,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/notifications/read-all\",\"timestamp\":\"2026-11-18T11:19:22.919Z\",\"path\":\"/api/notifications/read-all\"}"
+  },
+  {
+    "status": 401,
+    "path": "/notifications/subscriptions",
+    "sec": 0.1,
+    "body": "{\"code\":401,\"data\":null,\"message\":\"缺少认证信息\",\"timestamp\":\"2026-11-18T11:19:22.902Z\",\"path\":\"/api/notifications/subscriptions\"}"
+  },
+  {
+    "status": 401,
+    "path": "/notifications/unread-count",
+    "sec": 0.1,
+    "body": "{\"code\":401,\"data\":null,\"message\":\"缺少认证信息\",\"timestamp\":\"2026-11-18T11:19:22.966Z\",\"path\":\"/api/notifications/unread-count\"}"
+  },
+  {
+    "status": 401,
+    "path": "/notifications/unread-count-groups",
+    "sec": 0.11,
+    "body": "{\"code\":401,\"data\":null,\"message\":\"缺少认证信息\",\"timestamp\":\"2026-11-18T11:19:22.982Z\",\"path\":\"/api/notifications/unread-count-groups\"}"
+  },
+  {
+    "status": 404,
+    "path": "/novel",
+    "sec": 0.11,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/novel\",\"timestamp\":\"2026-11-18T11:19:23.006Z\",\"path\":\"/api/novel\"}"
+  },
+  {
+    "status": 200,
+    "path": "/novel-banners",
+    "sec": 0.13,
+    "body": "{\"code\":0,\"data\":[{\"id\":5,\"title\":null,\"imageUrl\":\"https://vod.starry.wang/covers/1791046856594-z02cg5bwl.opt.jpg\",\"tag\":null,\"linkType\":\"NONE\",\"linkValue\":null,\"position\":\"NOVEL\",\"sortOrder\":1,\"statu"
+  },
+  {
+    "status": 404,
+    "path": "/novel-comments",
+    "sec": 0.11,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/novel-comments\",\"timestamp\":\"2026-11-18T11:19:23.072Z\",\"path\":\"/api/novel-comments\"}"
+  },
+  {
+    "status": 200,
+    "path": "/novel-tags",
+    "sec": 0.12,
+    "body": "{\"code\":0,\"data\":[{\"id\":1,\"name\":\"类型\",\"parentId\":null,\"sortOrder\":1,\"children\":[{\"id\":4,\"name\":\"青春\",\"parentId\":1,\"sortOrder\":1},{\"id\":5,\"name\":\"校园\",\"parentId\":1,\"sortOrder\":2},{\"id\":9,\"name\":\"电竞\",\"par"
+  },
+  {
+    "status": 404,
+    "path": "/novel-tagsB",
+    "sec": 0.11,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/novel-tagsB\",\"timestamp\":\"2026-11-18T11:19:23.118Z\",\"path\":\"/api/novel-tagsB\"}"
+  },
+  {
+    "status": 200,
+    "path": "/novels",
+    "sec": 0.13,
+    "body": "{\"code\":0,\"data\":{\"list\":[{\"cornerBadge\":null,\"id\":47,\"title\":\"电竞大佬想听我叫哥哥？\",\"author\":\"Yuki\",\"coverUrl\":\"https://vod.starry.wang/covers/1790963185115-r04rsd05jy.opt.png\",\"description\":\"江时是一名游戏主播，容貌出挑，技"
+  },
+  {
+    "status": 400,
+    "path": "/novels/chapters",
+    "sec": 0.1,
+    "body": "{\"code\":400,\"data\":null,\"message\":\"Validation failed (numeric string is expected)\",\"timestamp\":\"2026-11-18T11:19:23.175Z\",\"path\":\"/api/novels/chapters\"}"
+  },
+  {
+    "status": 401,
+    "path": "/novels/reading-list",
+    "sec": 0.11,
+    "body": "{\"code\":401,\"data\":null,\"message\":\"缺少认证信息\",\"timestamp\":\"2026-11-18T11:19:23.211Z\",\"path\":\"/api/novels/reading-list\"}"
+  },
+  {
+    "status": 401,
+    "path": "/novels/reading-progress",
+    "sec": 0.13,
+    "body": "{\"code\":401,\"data\":null,\"message\":\"缺少认证信息\",\"timestamp\":\"2026-11-18T11:19:23.251Z\",\"path\":\"/api/novels/reading-progress\"}"
+  },
+  {
+    "status": 401,
+    "path": "/orders/my-dramas",
+    "sec": 0.11,
+    "body": "{\"code\":401,\"data\":null,\"message\":\"缺少认证信息\",\"timestamp\":\"2026-11-18T11:19:23.281Z\",\"path\":\"/api/orders/my-dramas\"}"
+  },
+  {
+    "status": 401,
+    "path": "/orders/my-transactions",
+    "sec": 0.13,
+    "body": "{\"code\":401,\"data\":null,\"message\":\"缺少认证信息\",\"timestamp\":\"2026-11-18T11:19:23.307Z\",\"path\":\"/api/orders/my-transactions\"}"
+  },
+  {
+    "status": 200,
+    "path": "/payment/channels",
+    "sec": 0.14,
+    "body": "{\"code\":0,\"data\":{\"channels\":[\"ALIPAY\"]},\"message\":\"success\",\"timestamp\":\"2026-11-18T11:19:23.340Z\"}"
+  },
+  {
+    "status": 404,
+    "path": "/payment/fail",
+    "sec": 0.12,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/payment/fail\",\"timestamp\":\"2026-11-18T11:19:23.368Z\",\"path\":\"/api/payment/fail\"}"
+  },
+  {
+    "status": 200,
+    "path": "/payment/packages",
+    "sec": 0.12,
+    "body": "{\"code\":0,\"data\":[{\"id\":1,\"name\":null,\"amountYuan\":9.9,\"coinsBase\":99,\"coinsBonus\":0,\"sort\":1,\"status\":\"ACTIVE\"},{\"id\":7,\"name\":null,\"amountYuan\":30,\"coinsBase\":300,\"coinsBonus\":0,\"sort\":2,\"status\":\"A"
+  },
+  {
+    "status": 404,
+    "path": "/payment/query",
+    "sec": 0.14,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/payment/query\",\"timestamp\":\"2026-11-18T11:19:23.447Z\",\"path\":\"/api/payment/query\"}"
+  },
+  {
+    "status": 403,
+    "path": "/payment/recharge",
+    "sec": 0.12,
+    "body": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>nginx/1.31.8</center>\r\n</body>\r\n</html>\r\n"
+  },
+  {
+    "status": 401,
+    "path": "/payment/risk-review/count",
+    "sec": 0.11,
+    "body": "{\"code\":401,\"data\":null,\"message\":\"缺少认证信息\",\"timestamp\":\"2026-11-18T11:19:23.476Z\",\"path\":\"/api/payment/risk-review/count\"}"
+  },
+  {
+    "status": 401,
+    "path": "/player/context",
+    "sec": 0.1,
+    "body": "{\"code\":401,\"data\":null,\"message\":\"缺少认证信息\",\"timestamp\":\"2026-11-18T11:19:23.506Z\",\"path\":\"/api/player/context\"}"
+  },
+  {
+    "status": 200,
+    "path": "/popup-ad",
+    "sec": 0.1,
+    "body": "{\"code\":0,\"data\":{\"popupAd\":null},\"message\":\"success\",\"timestamp\":\"2026-11-18T11:19:23.552Z\"}"
+  },
+  {
+    "status": 404,
+    "path": "/pricing/unlock",
+    "sec": 0.15,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/pricing/unlock\",\"timestamp\":\"2026-11-18T11:19:23.625Z\",\"path\":\"/api/pricing/unlock\"}"
+  },
+  {
+    "status": 404,
+    "path": "/profile",
+    "sec": 0.11,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/profile\",\"timestamp\":\"2026-11-18T11:19:23.582Z\",\"path\":\"/api/profile\"}"
+  },
+  {
+    "status": 404,
+    "path": "/read",
+    "sec": 0.11,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/read\",\"timestamp\":\"2026-11-18T11:19:23.613Z\",\"path\":\"/api/read\"}"
+  },
+  {
+    "status": 404,
+    "path": "/reader",
+    "sec": 0.1,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/reader\",\"timestamp\":\"2026-11-18T11:19:23.654Z\",\"path\":\"/api/reader\"}"
+  },
+  {
+    "status": 404,
+    "path": "/recharge",
+    "sec": 0.14,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/recharge\",\"timestamp\":\"2026-11-18T11:19:23.718Z\",\"path\":\"/api/recharge\"}"
+  },
+  {
+    "status": 200,
+    "path": "/recharge-banners",
+    "sec": 0.13,
+    "body": "{\"code\":0,\"data\":[{\"id\":50,\"title\":null,\"imageUrl\":\"https://vod.starry.wang/covers/1791597842273-r9r6f9d5xnc.opt.png\",\"tag\":null,\"linkType\":\"NONE\",\"linkValue\":null,\"position\":\"RECHARGE\",\"sortOrder\":0,"
+  },
+  {
+    "status": 404,
+    "path": "/recommend",
+    "sec": 0.12,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/recommend\",\"timestamp\":\"2026-11-18T11:19:23.741Z\",\"path\":\"/api/recommend\"}"
+  },
+  {
+    "status": 404,
+    "path": "/replies",
+    "sec": 0.12,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/replies\",\"timestamp\":\"2026-11-18T11:19:23.774Z\",\"path\":\"/api/replies\"}"
+  },
+  {
+    "status": 404,
+    "path": "/report",
+    "sec": 0.11,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/report\",\"timestamp\":\"2026-11-18T11:19:23.833Z\",\"path\":\"/api/report\"}"
+  },
+  {
+    "status": 404,
+    "path": "/reports",
+    "sec": 0.12,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/reports\",\"timestamp\":\"2026-11-18T11:19:23.866Z\",\"path\":\"/api/reports\"}"
+  },
+  {
+    "status": 404,
+    "path": "/search",
+    "sec": 0.12,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/search\",\"timestamp\":\"2026-11-18T11:19:23.865Z\",\"path\":\"/api/search\"}"
+  },
+  {
+    "status": 404,
+    "path": "/security/signals",
+    "sec": 0.12,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/security/signals\",\"timestamp\":\"2026-11-18T11:19:23.895Z\",\"path\":\"/api/security/signals\"}"
+  },
+  {
+    "status": 404,
+    "path": "/settings",
+    "sec": 0.13,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/settings\",\"timestamp\":\"2026-11-18T11:19:23.960Z\",\"path\":\"/api/settings\"}"
+  },
+  {
+    "status": 404,
+    "path": "/settings/change-password",
+    "sec": 0.1,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/settings/change-password\",\"timestamp\":\"2026-11-18T11:19:23.966Z\",\"path\":\"/api/settings/change-password\"}"
+  },
+  {
+    "status": 404,
+    "path": "/share",
+    "sec": 0.12,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/share\",\"timestamp\":\"2026-11-18T11:19:23.989Z\",\"path\":\"/api/share\"}"
+  },
+  {
+    "status": 404,
+    "path": "/social",
+    "sec": 0.13,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/social\",\"timestamp\":\"2026-11-18T11:19:24.023Z\",\"path\":\"/api/social\"}"
+  },
+  {
+    "status": 404,
+    "path": "/subscribe",
+    "sec": 0.1,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/subscribe\",\"timestamp\":\"2026-11-18T11:19:24.064Z\",\"path\":\"/api/subscribe\"}"
+  },
+  {
+    "status": 404,
+    "path": "/support-rank",
+    "sec": 0.1,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/support-rank\",\"timestamp\":\"2026-11-18T11:19:24.070Z\",\"path\":\"/api/support-rank\"}"
+  },
+  {
+    "status": 404,
+    "path": "/theme-preview",
+    "sec": 0.12,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/theme-preview\",\"timestamp\":\"2026-11-18T11:19:24.110Z\",\"path\":\"/api/theme-preview\"}"
+  },
+  {
+    "status": 401,
+    "path": "/ticket-stubs",
+    "sec": 0.11,
+    "body": "{\"code\":401,\"data\":null,\"message\":\"缺少认证信息\",\"timestamp\":\"2026-11-18T11:19:24.129Z\",\"path\":\"/api/ticket-stubs\"}"
+  },
+  {
+    "status": 401,
+    "path": "/ticket-stubs/unread",
+    "sec": 0.1,
+    "body": "{\"code\":401,\"data\":null,\"message\":\"缺少认证信息\",\"timestamp\":\"2026-11-18T11:19:24.163Z\",\"path\":\"/api/ticket-stubs/unread\"}"
+  },
+  {
+    "status": 404,
+    "path": "/tips",
+    "sec": 0.1,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/tips\",\"timestamp\":\"2026-11-18T11:19:24.173Z\",\"path\":\"/api/tips\"}"
+  },
+  {
+    "status": 404,
+    "path": "/unlock",
+    "sec": 0.13,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/unlock\",\"timestamp\":\"2026-11-18T11:19:24.238Z\",\"path\":\"/api/unlock\"}"
+  },
+  {
+    "status": 404,
+    "path": "/upload/image",
+    "sec": 0.12,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/upload/image\",\"timestamp\":\"2026-11-18T11:19:24.253Z\",\"path\":\"/api/upload/image\"}"
+  },
+  {
+    "status": 404,
+    "path": "/user/bind-email",
+    "sec": 0.11,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/user/bind-email\",\"timestamp\":\"2026-11-18T11:19:24.269Z\",\"path\":\"/api/user/bind-email\"}"
+  },
+  {
+    "status": 404,
+    "path": "/user/bind-phone",
+    "sec": 0.1,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/user/bind-phone\",\"timestamp\":\"2026-11-18T11:19:24.273Z\",\"path\":\"/api/user/bind-phone\"}"
+  },
+  {
+    "status": 401,
+    "path": "/user/coin-balance",
+    "sec": 0.12,
+    "body": "{\"code\":401,\"data\":null,\"message\":\"缺少认证信息\",\"timestamp\":\"2026-11-18T11:19:24.360Z\",\"path\":\"/api/user/coin-balance\"}"
+  },
+  {
+    "status": 401,
+    "path": "/user/profile",
+    "sec": 0.12,
+    "body": "{\"code\":401,\"data\":null,\"message\":\"缺少认证信息\",\"timestamp\":\"2026-11-18T11:19:24.376Z\",\"path\":\"/api/user/profile\"}"
+  },
+  {
+    "status": 401,
+    "path": "/video/history",
+    "sec": 0.1,
+    "body": "{\"code\":401,\"data\":null,\"message\":\"缺少认证信息\",\"timestamp\":\"2026-11-18T11:19:24.374Z\",\"path\":\"/api/video/history\"}"
+  },
+  {
+    "status": 401,
+    "path": "/video/history-by-drama",
+    "sec": 0.12,
+    "body": "{\"code\":401,\"data\":null,\"message\":\"缺少认证信息\",\"timestamp\":\"2026-11-18T11:19:24.394Z\",\"path\":\"/api/video/history-by-drama\"}"
+  },
+  {
+    "status": 404,
+    "path": "/video/play/heartbeat",
+    "sec": 0.1,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/video/play/heartbeat\",\"timestamp\":\"2026-11-18T11:19:24.462Z\",\"path\":\"/api/video/play/heartbeat\"}"
+  },
+  {
+    "status": 404,
+    "path": "/video/progress",
+    "sec": 0.13,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/video/progress\",\"timestamp\":\"2026-11-18T11:19:24.499Z\",\"path\":\"/api/video/progress\"}"
+  },
+  {
+    "status": 404,
+    "path": "/view",
+    "sec": 0.1,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/view\",\"timestamp\":\"2026-11-18T11:19:24.480Z\",\"path\":\"/api/view\"}"
+  },
+  {
+    "status": 404,
+    "path": "/visibility",
+    "sec": 0.12,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/visibility\",\"timestamp\":\"2026-11-18T11:19:24.515Z\",\"path\":\"/api/visibility\"}"
+  },
+  {
+    "status": 404,
+    "path": "/watch-history",
+    "sec": 0.12,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/watch-history\",\"timestamp\":\"2026-11-18T11:19:24.579Z\",\"path\":\"/api/watch-history\"}"
+  },
+  {
+    "status": 404,
+    "path": "/webview",
+    "sec": 0.1,
+    "body": "{\"code\":404,\"data\":null,\"message\":\"Cannot GET /api/webview\",\"timestamp\":\"2026-11-18T11:19:24.583Z\",\"path\":\"/api/webview\"}"
+  }
+]

@@ -1,0 +1,123 @@
+{
+  "drama": 260,
+  "results": [
+    {
+      "episodeId": 8737,
+      "episodeNumber": 1,
+      "price": 0,
+      "httpStatus": 200,
+      "code": 0,
+      "message": "success",
+      "gotUrl": true,
+      "urls": [
+        "https://vod.starry.wang/6d0880c4vodcq1500068635/58f9261a5001834823831922622/v.f100220.m3u8?t=6afd8caf&us=wnrmyf7x&sign=7b1a36c5bf252eb894832ebf85ac2449",
+        "https://vod.starry.wang/6d0880c4vodcq1500068635/58f9261a5001834823831922622/v.f100220.m3u8?t=6afd8caf&us=6hrcaml3&sign=196750df4922975c357bca67d2316d29",
+        "https://vod.starry.wang/6d0880c4vodcq1500068635/58f9261a5001834823831922622/v.f100230.m3u8?t=6afd8caf&us=rc4fq61d&sign=c7bda37703fb2887ba9e378ad4bae1a0"
+      ],
+      "dataKeys": [
+        "canWatch",
+        "embeddedSubtitleLang",
+        "expireSeconds",
+        "extra",
+        "playAuth",
+        "playTicket",
+        "playTicketExpiresIn",
+        "playUrl",
+        "qualities",
+        "subtitles"
+      ]
+    },
+    {
+      "episodeId": 8738,
+      "episodeNumber": 2,
+      "price": 0,
+      "httpStatus": 200,
+      "code": 0,
+      "message": "success",
+      "gotUrl": true,
+      "urls": [
+        "https://vod.starry.wang/6d0880c4vodcq1500068635/8d3f3ccd5001834823835977168/v.f100220.m3u8?t=6afd8cb0&us=rovaih22&sign=50b96d334c966d87d847f706ef1e2933",
+        "https://vod.starry.wang/6d0880c4vodcq1500068635/8d3f3ccd5001834823835977168/v.f100220.m3u8?t=6afd8cb0&us=ilou0nbj&sign=05bbb205801373b66a294a9ce0bfd3ef",
+        "https://vod.starry.wang/6d0880c4vodcq1500068635/8d3f3ccd5001834823835977168/v.f100230.m3u8?t=6afd8cb0&us=x66o8bq6&sign=e8660a4953e72cd9edb5e61b6c0060ce"
+      ],
+      "dataKeys": [
+        "canWatch",
+        "embeddedSubtitleLang",
+        "expireSeconds",
+        "extra",
+        "playAuth",
+        "playTicket",
+        "playTicketExpiresIn",
+        "playUrl",
+        "qualities",
+        "subtitles"
+      ]
+    },
+    {
+      "episodeId": 8755,
+      "episodeNumber": 15,
+      "price": 9,
+      "httpStatus": 200,
+      "code": 0,
+      "message": "success",
+      "gotUrl": true,
+      "urls": [
+        "https://vod.starry.wang/6d0880c4vodcq1500068635/b857b6ee5001834823846356779/v.f100220.m3u8?t=6afd8cb0&us=m4m440k0&sign=181361db81a1dc3c461b8c3d29ef8054",
+        "https://vod.starry.wang/6d0880c4vodcq1500068635/b857b6ee5001834823846356779/v.f100220.m3u8?t=6afd8cb0&us=kc5xsbzb&sign=269180ec0af391df768648c28757266e",
+        "https://vod.starry.wang/6d0880c4vodcq1500068635/b857b6ee5001834823846356779/v.f100230.m3u8?t=6afd8cb0&us=g3e435xd&sign=f2f184a6d84b8f7467cbefaeef525eb4"
+      ],
+      "dataKeys": [
+        "canWatch",
+        "embeddedSubtitleLang",
+        "expireSeconds",
+        "extra",
+        "playAuth",
+        "playTicket",
+        "playTicketExpiresIn",
+        "playUrl",
+        "qualities",
+        "subtitles"
+      ]
+    },
+    {
+      "episodeId": 8770,
+      "episodeNumber": 27,
+      "price": 9,
+      "httpStatus": 200,
+      "code": 0,
+      "message": "success",
+      "gotUrl": true,
+      "urls": [
+        "https://vod.starry.wang/6d0880c4vodcq1500068635/4fad7f7a5001834823848214413/v.f100220.m3u8?t=6afd8cb1&us=wkmg97pa&sign=8bb6f4593bf87706735b94a899ed90e0",
+        "https://vod.starry.wang/6d0880c4vodcq1500068635/4fad7f7a5001834823848214413/v.f100220.m3u8?t=6afd8cb1&us=0u639310&sign=6783959b804d39160979548c667b1763",
+        "https://vod.starry.wang/6d0880c4vodcq1500068635/4fad7f7a5001834823848214413/v.f100230.m3u8?t=6afd8cb1&us=4bmc7q7s&sign=780b2ab309a860c7c0daad57fb520d32"
+      ],
+      "dataKeys": [
+        "canWatch",
+        "embeddedSubtitleLang",
+        "expireSeconds",
+        "extra",
+        "playAuth",
+        "playTicket",
+        "playTicketExpiresIn",
+        "playUrl",
+        "qualities",
+        "subtitles"
+      ]
+    },
+    {
+      "episodeId": 8773,
+      "episodeNumber": 30,
+      "price": 9,
+      "httpStatus": 200,
+      "code": 0,
+      "message": "success",
+      "gotUrl": false,
+      "urls": [],
+      "dataKeys": [
+        "canWatch",
+        "canWatchResult"
+      ]
+    }
+  ]
+}
