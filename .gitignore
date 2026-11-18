@@ -20,6 +20,12 @@ token.json
 短剧榜单.html
 rank-server.tar.gz
 
+# ===== 下载的视频文件（体积大）=====
+dl/
+*.mp4
+*.ts
+*.m3u8
+
 # ===== 运行时缓存与日志 =====
 rank-server/data/
 rank-server/logs/

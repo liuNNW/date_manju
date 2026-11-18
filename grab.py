@@ -185,19 +185,20 @@ def main():
           f"免费前 {fn} 集 / 共 {len(eps)} 集 / 整部 {d.get('wholePrice')} 豆")
 
     if a.list:
-        print(f"\n{'集号':>4} {'price':>5} {'判定':>6}  说明")
+        print(f"\n{'集号':>4} {'price':>5} {'判定':>6}  说明（判据：集号 <= freeEpisodeCount）")
         for e in eps:
             n = e.get("episodeNumber") or 0
-            free = (e.get("price") or 0) == 0 or (fn and n <= fn)
+            free = bool(fn) and n <= fn
             print(f"{n:>4} {e.get('price') or 0:>5} {'免费' if free else '付费':>6}  "
-                  f"{'免费集范围内' if fn and n<=fn else ('price=0' if (e.get('price') or 0)==0 else '需解锁')}")
+                  f"{'免费范围内' if free else '需解锁'}")
         return
 
     targets = []
     if a.ep:
         targets = [e for e in eps if (e.get("episodeNumber") or 0) == a.ep]
     elif a.all_free:
-        targets = [e for e in eps if (e.get("price") or 0) == 0 or (fn and (e.get("episodeNumber") or 0) <= fn)]
+        # 唯一判据：集号 <= freeEpisodeCount（price 字段与此无关）
+        targets = [e for e in eps if fn and (e.get("episodeNumber") or 0) <= fn]
     if not targets:
         sys.exit("没有匹配的集（用 --list 看哪些能下）")
 
